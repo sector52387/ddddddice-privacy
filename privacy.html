@@ -30,20 +30,25 @@ nav.links{margin-top:36px;padding-top:16px;border-top:2px solid var(--line);text
 <div class="tabs"><button id="b-ja" class="on" onclick="show('ja')">日本語</button><button id="b-en" onclick="show('en')">English</button></div>
 <div id="c-ja" class="lang on">
 <h1>DDDDDDICE プライバシーポリシー</h1>
-<p class="meta">施行日：2026年10月19日<br>提供者：いぬは Products</p>
+<p class="meta">施行日：2026年10月27日<br>提供者：いぬは Products</p>
 <p>このポリシーは、ゲーム「DDDDDDICE」（以下「本ゲーム」）が、どの情報を扱い、どう使うかを説明するものです。</p>
 <h2>1. 本ゲームが集める情報</h2>
-<p>本ゲームは、提供者のサーバーに情報を送りません。本ゲーム独自のアカウント登録もありません。ゲームの記録と設定は、あなたのPCの中に保存されます。</p>
-<p>ただし、Steam の機能（下の第3項）と YouTube の機能（第5項）を使うときは、それぞれ Valve と Google に必要な情報が送られます。</p>
+<p>本ゲームは、提供者（いぬは Products）のサーバーに情報を送りません。本ゲーム独自のアカウント登録もありません。ゲームの記録と設定は、あなたのPCの中に保存されます。</p>
+<p>ただし、配信機能（下の第2項）、Steam の機能（第3項）、YouTube の機能（第5項）を使うときは、それぞれ Twitch、Valve、Google のサービスに接続し、必要な情報をやり取りします。接続するときは、通常のインターネット通信と同じく、IP アドレスなどがそのサービスに届きます。その扱いは各サービスのプライバシーポリシーに従います。</p>
 <h2>2. 配信機能（Twitch・YouTube）で扱う情報</h2>
-<p>配信者が配信機能を使うと、本ゲームは配信のチャットを読み取り専用で受け取り、次の情報を使います。</p>
+<p>配信者が配信機能を使うと、本ゲームは配信のチャットを読み取り専用で受け取ります。</p>
+<ul>
+<li>Twitch：配信者が入力したチャンネル名を使って、Twitch のチャットのサーバー（irc-ws.chat.twitch.tv）に匿名で接続します。Twitch のアカウントでのログインはしません。Twitch による情報の扱いは、Twitch のプライバシーに関する通知（<a href="https://www.twitch.tv/p/legal/privacy-notice/">https://www.twitch.tv/p/legal/privacy-notice/</a>）をご覧ください。</li>
+<li>YouTube：第5項のとおり、YouTube API サービスを使います。</li>
+</ul>
+<p>受け取った情報のうち、次のものを使います。</p>
 <ul>
 <li>視聴者の表示名、チャットでの色、ユーザーID（YouTube の場合はチャンネルID）</li>
 <li>チャットのメッセージ（参加のコマンドかどうかを判断するためだけに使い、保存しません）</li>
 <li>モデレーター、サブスクライバー、メンバーかどうか（「振れる人」の設定のため）</li>
 <li>Bits、スーパーチャット、スーパーステッカーの金額（おまけの振りとお礼の表示のため）</li>
 </ul>
-<p>これらは、ゲーム画面への表示と、視聴者のランキングのために使います。本ゲームはチャットに書き込みません。</p>
+<p>これらは、配信者のPCの中で、ゲーム画面への表示と視聴者のランキングのために使います。視聴者の記録を持つのは配信者のPCで、提供者には送られません。提供者は視聴者の情報を受け取りません。本ゲームはチャットに書き込みません。</p>
 <h2>3. Steam の機能（実績・ランキング・追加コンテンツ）</h2>
 <p>Steam から起動したとき、本ゲームは Steam（Valve Corporation）の機能を使い、次の情報を Steam に送ります。</p>
 <ul>
@@ -54,21 +59,33 @@ nav.links{margin-top:36px;padding-top:16px;border-top:2px solid var(--line);text
 <p>ランキングの記録は、あなたの Steam アカウント（Steam の名前）と一緒に、ほかのプレイヤーに表示されます。最初はフレンドの間の順位を表示し、世界の順位も見られます。</p>
 <p>回数と遊んだ時間は、ありえない記録を見つけて取り除くためにも使います。提供者は Steamworks の管理画面でこれらを見て、不正と判断した記録を削除することがあります。</p>
 <p>ランキングの記録を消したいときは、下の「お問い合わせ」からご連絡ください。</p>
+<p>追加コンテンツ（パック）の購入と返金は Steam が扱います。提供者は支払いの情報を受け取りません。</p>
 <p>Steam が集める情報（プレイ時間など）の扱いは、Valve のプライバシーポリシー（<a href="https://store.steampowered.com/privacy_agreement/">https://store.steampowered.com/privacy_agreement/</a>）に従います。</p>
 <h2>4. 保存と保存期間</h2>
-<p>視聴者ごとの記録（表示名、色、ID、振った回数、ピンゾロの回数など）は、配信者のPCの中にだけ保存されます。</p>
-<p>YouTube の視聴者の記録は、その視聴者が最後に振ってから30日で自動的に削除されます。</p>
-<p>Twitch の視聴者の記録は、配信者がファイルを消すまで残ります。</p>
-<p>保存場所：Windows の %APPDATA%\Godot\app_userdata\DDDDDDICE 3D Prototype\viewers.json</p>
+<p>本ゲームは、次のファイルを配信者（プレイヤー）のPCの中にだけ保存します。</p>
+<ul>
+<li>viewers.json：視聴者ごとの記録（表示名、色、ID、振った回数、ピンゾロの回数など）</li>
+<li>best.json：あなたのゲームの記録</li>
+<li>settings.json：設定（配信のチャンネル名、配信者が自分で入れた YouTube の API キー、YouTube の規約への同意など）</li>
+</ul>
+<p>それぞれ、保存に失敗したときに記録を守るため、1つ前の内容を「.bak」の付いたファイル（例：viewers.json.bak）に残します。</p>
+<p>YouTube の視聴者の記録は、その視聴者が最後に振ってから30日で自動的に削除されます。ゲームは、起動したとき、記録を保存するとき、起動している間は1時間ごとにこれを確かめ、「.bak」のファイルからも削除します。ゲームを起動していない間は確かめられないため、その間に30日を過ぎた記録は、次にゲームを起動したときに削除されます。</p>
+<p>Twitch の視聴者の記録は、その視聴者が最後に振ってから1年で自動的に削除されます（確かめるタイミングは YouTube と同じです）。</p>
+<p>保存場所：Windows の %APPDATA%\Godot\app_userdata\DDDDDDICE 3D Prototype\</p>
 <h2>5. YouTube API サービスの利用</h2>
 <p>本ゲームは、YouTube のチャットを読むために YouTube API サービスを使っています。そのために、配信者が入力したチャンネルや配信の URL を YouTube に送ります。YouTube の機能を使うことで、あなたは YouTube の利用規約（<a href="https://www.youtube.com/t/terms">https://www.youtube.com/t/terms</a>）に同意したものとみなされます。</p>
 <p>Google による情報の扱いについては、Google プライバシーポリシー（<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>）をご覧ください。</p>
 <h2>6. 第三者への提供・共有</h2>
-<p>本ゲームは、上で説明した Steam と YouTube への送信のほかに、情報を提供者や第三者に送ったり、共有したりしません。視聴者の記録は Steam にも送りません。配信の画面に映る名前などは、配信者の配信を通じて視聴者に表示されます。</p>
+<p>本ゲームは、上で説明した Twitch・Steam・YouTube との通信のほかに、情報を提供者や第三者に送ったり、共有したりしません。視聴者の記録は Steam にも送りません。配信の画面に映る名前などは、配信者の配信を通じて視聴者に表示されます。</p>
 <h2>7. 広告とCookie</h2>
 <p>本ゲームは広告を表示しません。Cookie や、それに似た追跡の仕組みも使いません。端末に保存するのは、上で説明したゲームの記録と設定だけです。</p>
 <h2>8. 削除</h2>
-<p>配信者は、上の保存場所にあるファイルを消すことで、いつでも記録を削除できます。Steam のランキングの記録は、お問い合わせをいただければ削除します。</p>
+<ul>
+<li>ゲームの「設定」→「データ」→「このPCの記録を消す…」で、あなたの記録と視聴者の記録を、「.bak」のファイルも含めてまとめて削除できます（設定は残ります）。</li>
+<li>手で削除するときは、上の保存場所にある viewers.json と viewers.json.bak を消してください（あなたの記録は best.json と best.json.bak）。</li>
+<li>ゲームの「設定」→「配信」→「視聴者の記録」→「一覧を開く…」で、視聴者1人ずつの記録も削除できます（「.bak」のファイルからも削除されます）。視聴者から削除を頼まれたときにも使えます。</li>
+<li>Steam の実績とランキングはゲームからは消えません。ランキングの記録は、お問い合わせをいただければ削除します。</li>
+</ul>
 <h2>9. このポリシーの変更</h2>
 <p>内容を変えるときは、このページを更新し、施行日を改めます。</p>
 <h2>10. お問い合わせ</h2>
@@ -76,20 +93,25 @@ nav.links{margin-top:36px;padding-top:16px;border-top:2px solid var(--line);text
 </div>
 <div id="c-en" class="lang">
 <h1>DDDDDDICE Privacy Policy</h1>
-<p class="meta">Effective date: October 19, 2026<br>Provided by: INUHA Products</p>
+<p class="meta">Effective date: October 27, 2026<br>Provided by: INUHA Products</p>
 <p>This policy explains what information the game DDDDDDICE (&quot;the Game&quot;) handles and how it is used.</p>
 <h2>1. Information the Game collects</h2>
-<p>The Game does not send any information to our servers and has no accounts of its own. Your records and settings are stored on your PC.</p>
-<p>When you use the Steam features (section 3) or the YouTube features (section 5), the information they need is sent to Valve or Google respectively.</p>
+<p>The Game does not send any information to our (INUHA Products&#x27;) servers and has no accounts of its own. Your records and settings are stored on your PC.</p>
+<p>When you use the streaming features (section 2), the Steam features (section 3) or the YouTube features (section 5), the Game connects to Twitch, Valve or Google respectively and exchanges the information they need. As with any internet connection, your IP address and similar details reach that service, and are handled under its own privacy policy.</p>
 <h2>2. Information used by the streaming features (Twitch and YouTube)</h2>
-<p>When a streamer uses the streaming features, the Game receives the stream&#x27;s chat in read-only mode and uses:</p>
+<p>When a streamer uses the streaming features, the Game receives the stream&#x27;s chat in read-only mode.</p>
+<ul>
+<li>Twitch: the Game connects anonymously to Twitch&#x27;s chat server (irc-ws.chat.twitch.tv) with the channel name the streamer enters. It does not sign in with a Twitch account. For how Twitch handles information, see the Twitch Privacy Notice (<a href="https://www.twitch.tv/p/legal/privacy-notice/">https://www.twitch.tv/p/legal/privacy-notice/</a>).</li>
+<li>YouTube: the Game uses YouTube API Services, as described in section 5.</li>
+</ul>
+<p>From what it receives, the Game uses:</p>
 <ul>
 <li>viewers&#x27; display names, chat colors and user IDs (channel IDs on YouTube)</li>
 <li>chat messages (only to check for the roll command; messages are not stored)</li>
 <li>whether a viewer is a moderator, subscriber or member (for the &quot;Who can roll&quot; setting)</li>
 <li>the amount of Bits, Super Chats and Super Stickers (for bonus rolls and the optional thank-you card)</li>
 </ul>
-<p>This information is used to show viewers in the game and for the viewer leaderboards. The Game never posts in chat.</p>
+<p>This information is used on the streamer&#x27;s PC to show viewers in the game and for the viewer leaderboards. Viewer records are kept on the streamer&#x27;s PC and are never sent to us; we do not receive any viewer information. The Game never posts in chat.</p>
 <h2>3. Steam features (achievements, leaderboard, downloadable content)</h2>
 <p>When launched through Steam, the Game uses Steam (Valve Corporation) and sends Steam:</p>
 <ul>
@@ -100,21 +122,33 @@ nav.links{margin-top:36px;padding-top:16px;border-top:2px solid var(--line);text
 <p>Your leaderboard record is shown to other players together with your Steam account (your Steam name). The Game shows your friends&#x27; ranking first, and the worldwide ranking on request.</p>
 <p>The rolls and play time are also used to find and remove impossible records. We may view them in Steamworks and delete records we judge to be cheated.</p>
 <p>To have your leaderboard record removed, contact us (see &quot;Contact&quot; below).</p>
+<p>Purchases and refunds of downloadable content (packs) are handled by Steam. We do not receive any payment information.</p>
 <p>Information that Steam itself collects (such as play time) is handled under the Valve Privacy Policy (<a href="https://store.steampowered.com/privacy_agreement/">https://store.steampowered.com/privacy_agreement/</a>).</p>
 <h2>4. Storage and retention</h2>
-<p>Per-viewer records (display name, color, ID, number of rolls, wins and so on) are stored only on the streamer&#x27;s PC.</p>
-<p>A YouTube viewer&#x27;s record is deleted automatically 30 days after their last roll.</p>
-<p>Twitch viewers&#x27; records are kept until the streamer deletes the file.</p>
-<p>Location (Windows): %APPDATA%\Godot\app_userdata\DDDDDDICE 3D Prototype\viewers.json</p>
+<p>The Game stores these files only on the streamer&#x27;s (player&#x27;s) PC:</p>
+<ul>
+<li>viewers.json: per-viewer records (display name, color, ID, number of rolls, wins and so on)</li>
+<li>best.json: your own game records</li>
+<li>settings.json: settings (the stream channels, a YouTube API key the streamer entered themselves, agreement to the YouTube terms, and so on)</li>
+</ul>
+<p>To protect records if saving fails, each keeps its previous contents in a file ending in &quot;.bak&quot; (for example viewers.json.bak).</p>
+<p>A YouTube viewer&#x27;s record is deleted automatically 30 days after their last roll. The Game checks this when it starts, whenever it saves records, and every hour while it runs, and deletes the record from the &quot;.bak&quot; file too. It cannot check while it is not running, so a record that passes 30 days in that time is deleted the next time the Game starts.</p>
+<p>A Twitch viewer&#x27;s record is deleted automatically one year after their last roll (checked at the same times as for YouTube).</p>
+<p>Location (Windows): %APPDATA%\Godot\app_userdata\DDDDDDICE 3D Prototype\</p>
 <h2>5. YouTube API Services</h2>
 <p>The Game uses YouTube API Services to read YouTube chat. To do so, it sends YouTube the channel or stream URL the streamer enters. By using the YouTube features, you agree to be bound by the YouTube Terms of Service (<a href="https://www.youtube.com/t/terms">https://www.youtube.com/t/terms</a>).</p>
 <p>For how Google handles information, see the Google Privacy Policy (<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>).</p>
 <h2>6. Sharing</h2>
-<p>Apart from what is sent to Steam and YouTube as described above, the Game does not send or share information with us or any third party. Viewer records are never sent to Steam. Names and other details shown on screen reach viewers through the streamer&#x27;s own broadcast.</p>
+<p>Apart from the connections to Twitch, Steam and YouTube described above, the Game does not send or share information with us or any third party. Viewer records are never sent to Steam. Names and other details shown on screen reach viewers through the streamer&#x27;s own broadcast.</p>
 <h2>7. Advertising and cookies</h2>
 <p>The Game shows no ads and uses no cookies or similar tracking. The only data stored on the device is the game records and settings described above.</p>
 <h2>8. Deleting your data</h2>
-<p>Streamers can delete these records at any time by deleting the file at the location above. We will delete your Steam leaderboard record on request.</p>
+<ul>
+<li>In the Game, Settings &gt; Data &gt; &quot;Erase this PC&#x27;s records...&quot; deletes your records and the viewer records, &quot;.bak&quot; files included (settings stay).</li>
+<li>To delete them by hand, delete viewers.json and viewers.json.bak at the location above (your own records are best.json and best.json.bak).</li>
+<li>In the Game, Settings &gt; Streaming &gt; Viewer records &gt; &quot;Open the list...&quot; deletes a single viewer&#x27;s record, from the &quot;.bak&quot; file too. Streamers can also use it when a viewer asks for their record to be deleted.</li>
+<li>Steam achievements and leaderboard records cannot be deleted from the Game. We will delete your leaderboard record on request.</li>
+</ul>
 <h2>9. Changes</h2>
 <p>If this policy changes, we will update this page and its effective date.</p>
 <h2>10. Contact</h2>
